@@ -1,0 +1,27 @@
+const cars = [];
+function mintNFT (car_name,brand_name,Model,Edition,Price) {
+    const car_details = {
+        "Car_Name": car_name,
+        "Brand_Name": brand_name,
+        "Model": Model,
+        "Edition": Edition,
+        "Car_Price": Price,
+    }
+    books.push(cars_details);
+    console.log("Car details successfully added.");
+}
+function listNFTs () {
+    for(let i = 0; i < cars.length; i++) {
+        console.log(cars[i]);
+    }
+}
+function getTotalSupply() {
+    console.log("Total No. of cars : " + cars.length);
+}
+mintNFT("G-Wagon","Mercedes","2018","5th",3700000);
+mintNFT("Urus","Lamborgini","2020","12th",4700000);
+mintNFT("Thar","Mahindra","2016","1st",56000);
+mintNFT("X4","Audi","2019","4th",6800000);
+mintNFT("Porche Elite","Porche","2022","6th",67800006);
+listNFTs();
+getTotalSupply();
