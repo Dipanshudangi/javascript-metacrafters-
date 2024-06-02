@@ -7,7 +7,7 @@ function mintNFT (car_name,brand_name,Model,Edition,Price) {
         "Edition": Edition,
         "Car_Price": Price,
     }
-    books.push(cars_details);
+    car.push(car_details);
     console.log("Car details successfully added.");
 }
 function listNFTs () {
